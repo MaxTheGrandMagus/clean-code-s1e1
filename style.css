@@ -37,7 +37,7 @@ body {
 .input__task {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 
 .new-task {
@@ -137,7 +137,7 @@ body {
 }
 
 .tasks__item >    .input__task {
-  width: 226px
+  width: 226px;
 }
 
 .btn.btn_delete .delete__icon {
@@ -152,18 +152,18 @@ body {
 
 /* Completed */
 .tasks#completed-tasks .tasks__item__label {
-  text-decoration: line-through
+  text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
 .tasks .tasks__item .input__task {
-  display: none
+  display: none;
 }
 
 .tasks .tasks__item_edit .input__task {
   display: inline-block;
-  width: 224px
+  width: 224px;
 }
 
 .tasks .tasks__item_edit .tasks__item__label {
