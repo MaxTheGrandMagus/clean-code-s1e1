@@ -49,11 +49,13 @@ body {
   padding: 0px;
 }
 
-.tasks__item, .title {
+.tasks__item, 
+.title {
   list-style: none;
 }
 
-.input,.btn{
+.input,
+.btn{
   outline: none;
 }
 
@@ -115,7 +117,6 @@ body {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -136,7 +137,7 @@ body {
   width: 226px;
 }
 
-.tasks__item >    .input__task {
+.tasks__item > .input__task {
   width: 226px;
 }
 
