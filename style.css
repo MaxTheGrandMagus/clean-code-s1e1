@@ -130,7 +130,7 @@
   margin: 0 10px;
 }
 
-.tasks__item > .tasks__item__label {
+.tasks__item > .tasks__label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
@@ -152,7 +152,7 @@
 }
 
 /* Completed */
-.tasks#completed-tasks .tasks__item__label {
+.tasks#completed-tasks .tasks__label {
   text-decoration: line-through;
   color: #888;
 }
@@ -167,6 +167,6 @@
   width: 224px;
 }
 
-.tasks .tasks__item_edit .tasks__item__label {
+.tasks .tasks__item_edit .tasks__label {
   display: none;
 }
